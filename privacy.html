@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Fact Checking AI Assistant</title>
+    <style>
+      body {
+        margin: 0;
+        background: #fffaf4;
+        color: #1f2937;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        line-height: 1.55;
+      }
+
+      main {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 32px 18px 48px;
+      }
+
+      h1,
+      h2 {
+        line-height: 1.2;
+      }
+
+      a {
+        color: #92400e;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy for Fact Checking AI Assistant</h1>
+      <p><strong>Last updated:</strong> June 10, 2026</p>
+
+      <p>Fact Checking AI Assistant helps users check selected text against public evidence sources and optional AI providers.</p>
+
+      <h2>Data the Extension Handles</h2>
+      <p>The extension may process text that you select, paste, or submit for fact checking; extension settings; short-lived runtime state and cached evidence results; and payment status when payments are enabled.</p>
+
+      <h2>How Data Is Used</h2>
+      <p>Selected or submitted text is used only to generate a fact-checking result, collect supporting public sources, and format the answer shown to you. Settings configure extension behavior. Evidence cache is stored locally to reduce repeated API calls.</p>
+
+      <h2>Third-Party Services</h2>
+      <p>Depending on your settings and the claim being checked, text or search queries may be sent to Pollinations AI, ApiFreeLLM, GDELT, Wikipedia, Wikidata, OpenAlex, Semantic Scholar, Crossref, arXiv, DuckDuckGo Instant Answer API, PubMed / NCBI E-utilities, Google Knowledge Graph Search, or a user-provided SearXNG instance.</p>
+      <p>These services may process requests according to their own privacy policies. Do not submit sensitive personal information unless you are comfortable sending it to the selected services.</p>
+
+      <h2>Storage</h2>
+      <p>The extension uses <code>chrome.storage.sync</code> for non-sensitive user settings and <code>chrome.storage.local</code> for API keys, selected text, runtime state, and temporary evidence cache.</p>
+
+      <h2>Data Sharing and Sale</h2>
+      <p>The extension does not sell user data. The extension does not share user data for advertising, profiling, or unrelated analytics. Data is sent to third-party services only to provide fact-checking, source retrieval, AI response generation, or payment verification when enabled.</p>
+
+      <h2>API Keys</h2>
+      <p>If you enter API keys in the settings page, they are stored locally in your Chrome profile (not synchronized by the extension) and used only to call the corresponding service.</p>
+      <p>The extension includes a shared, publicly extractable Google Knowledge Graph browser key so the default evidence search works without user setup. You may replace it with your own locally stored key.</p>
+
+      <h2>Payments</h2>
+      <p>If payments are enabled, payment status may be checked through the configured payment provider. Payment details are handled by the payment provider, not by this extension.</p>
+
+      <h2>Permissions</h2>
+      <p>The extension requests permissions needed to read selected text when you invoke the checker, show a context-menu action, inject the checker overlay into the active tab, store settings and cached evidence, and contact fact-checking, source, AI, and payment-related services.</p>
+
+      <h2>User Control</h2>
+      <p>You can delete extension data by removing the extension from Chrome or clearing extension storage in the browser profile.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions, open a support request at <a href="https://github.com/Viocid/Fact_checking/issues" target="_blank" rel="noreferrer">github.com/Viocid/Fact_checking/issues</a>.</p>
+    </main>
+  </body>
+</html>
